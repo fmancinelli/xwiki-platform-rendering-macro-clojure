@@ -1,0 +1,20 @@
+.runTransformations
+.#-----------------------------------------------------
+.input|xwiki/2.0
+.#-----------------------------------------------------
+{{clojure}}
+(println "Hello World")
+{{/clojure}}
+
+.#-----------------------------------------------------
+.expect|event/1.0
+.#-----------------------------------------------------
+beginDocument
+beginMacroMarkerStandalone [clojure] [] [(println "Hello World")]
+beginParagraph
+onWord [Hello]
+onSpace
+onWord [World]
+endParagraph
+endMacroMarkerStandalone [clojure] [] [(println "Hello World")]
+endDocument
