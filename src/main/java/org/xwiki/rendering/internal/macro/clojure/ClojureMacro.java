@@ -32,7 +32,6 @@ import org.xwiki.rendering.transformation.MacroTransformationContext;
  * Execute script in the provided script language.
  *
  * @version $Id$
- * @since 5.2
  */
 @Component
 @Named("clojure")

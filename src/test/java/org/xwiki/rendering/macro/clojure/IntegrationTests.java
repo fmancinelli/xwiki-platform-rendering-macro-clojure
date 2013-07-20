@@ -29,7 +29,6 @@ import org.xwiki.test.jmock.MockingComponentManager;
  * conventions described in {@link org.xwiki.rendering.test.integration.TestDataParser}.
  *
  * @version $Id$
- * @since 5.2
  */
 @RunWith(RenderingTestSuite.class)
 public class IntegrationTests
